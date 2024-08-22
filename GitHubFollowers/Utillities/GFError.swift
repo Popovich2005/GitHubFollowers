@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
 //  Created by Алексей Попов on 07.08.2024.
