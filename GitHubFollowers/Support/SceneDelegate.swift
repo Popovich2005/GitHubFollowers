@@ -47,7 +47,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         tabBar.viewControllers = [createSearchNC(), createFavoritesListNC()]
         
         return tabBar
-        
     }
     
     func configureNavigationBar() {
