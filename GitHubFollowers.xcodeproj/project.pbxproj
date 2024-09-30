@@ -33,6 +33,7 @@
 		3AA216352C776E5A00501BC0 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA216342C776E5A00501BC0 /* GFSecondaryTitleLabel.swift */; };
 		3AA216372C78987400501BC0 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA216362C78987400501BC0 /* Constans.swift */; };
 		3AA216392C7DFDAD00501BC0 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA216382C7DFDAD00501BC0 /* GFItemInfoView.swift */; };
+		3AC8008A2CAAC2DE00C14209 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC800892CAAC2DE00C14209 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		3AA216342C776E5A00501BC0 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		3AA216362C78987400501BC0 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		3AA216382C7DFDAD00501BC0 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		3AC800892CAAC2DE00C14209 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				3AA2160C2C60F2EE00501BC0 /* GFAlertVC.swift */,
 				3AA216302C776D2D00501BC0 /* GFUserInfoHeaderVC.swift */,
+				3AC800892CAAC2DE00C14209 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC8008A2CAAC2DE00C14209 /* GFItemInfoVC.swift in Sources */,
 				3AA216182C6255AC00501BC0 /* User.swift in Sources */,
 				3AA216052C5CE0BB00501BC0 /* GFTextField.swift in Sources */,
 				3AA216012C5B9D5300501BC0 /* FavoritesListVC.swift in Sources */,
