@@ -33,7 +33,7 @@ class GFEmptyStateView: UIView {
         massageLabel.numberOfLines = 3
         massageLabel.textColor = .secondaryLabel
         
-        logoImageView.image = UIImage(named: "empty-state-logo")
+        logoImageView.image = Images.emptyStateLogo
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
