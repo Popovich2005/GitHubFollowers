@@ -92,7 +92,7 @@ class UserInfoVC: GFDataLoadingVC {
             itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
             
             dataLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
-            dataLabel.heightAnchor.constraint(equalToConstant: 18)
+            dataLabel.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     

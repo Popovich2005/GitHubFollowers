@@ -27,8 +27,7 @@ class GFEmptyStateView: UIView {
     }
     
     private func configure() {
-        addSubview(massageLabel)
-        addSubview(logoImageView)
+        addSubviews(massageLabel, logoImageView)
         
         massageLabel.numberOfLines = 3
         massageLabel.textColor = .secondaryLabel

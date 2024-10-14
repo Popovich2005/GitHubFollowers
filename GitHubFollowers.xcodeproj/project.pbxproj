@@ -42,6 +42,7 @@
 		3AC8009A2CB6912D00C14209 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC800992CB6912D00C14209 /* GFTabBarController.swift */; };
 		3AC8009C2CB906E700C14209 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8009B2CB906E700C14209 /* GFAlertContainerView.swift */; };
 		3AC8009E2CB9160200C14209 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8009D2CB9160200C14209 /* GFDataLoadingVC.swift */; };
+		3AC800A02CBD2A2A00C14209 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8009F2CBD2A2A00C14209 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		3AC800992CB6912D00C14209 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		3AC8009B2CB906E700C14209 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		3AC8009D2CB9160200C14209 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		3AC8009F2CBD2A2A00C14209 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				3AA2160E2C62382100501BC0 /* UIViewContriller+Ext.swift */,
 				3AC800902CAE852600C14209 /* Date+Ext.swift */,
+				3AC8009F2CBD2A2A00C14209 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC800A02CBD2A2A00C14209 /* UIView+Ext.swift in Sources */,
 				3AC8008A2CAAC2DE00C14209 /* GFItemInfoVC.swift in Sources */,
 				3AA216182C6255AC00501BC0 /* User.swift in Sources */,
 				3AA216052C5CE0BB00501BC0 /* GFTextField.swift in Sources */,
